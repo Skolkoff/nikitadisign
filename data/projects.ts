@@ -4,16 +4,16 @@ import { Project } from '../types';
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: { ru: 'Теплый минимализм', en: 'Warm Minimalism' },
+    title: { ru: 'ЖК «Симфония»', en: 'The Symphony' },
     residentialComplex: { ru: 'ЖК «Симфония»', en: 'The Symphony' },
-    address: { ru: 'ул. Зорге, Москва', en: 'Zorge St, Moscow' },
-    sqm: 85,
+    address: { ru: 'УЛ. 2-Я ХУТОРСКАЯ Д. 34, Москва', en: '2nd Hutorskaya St, 34, Moscow' },
+    sqm: 64,
     category: 'Residential',
     description: { 
       ru: 'Интерьер в стиле мягкого минимализма с использованием натурального шпона и скрытого освещения. Особое внимание уделено эргономике и тактильным ощущениям материалов.', 
       en: 'Interior in the style of soft minimalism using natural veneer and hidden lighting. Special attention is paid to ergonomics and the tactile sensations of materials.' 
     },
-    mainImage: '/projects/project1/6.webp',
+    mainImage: '/projects/project1/6.jpg',
     gallery: [
       '/projects/project1/1.jpg',
       '/projects/project1/2.jpg',
@@ -56,49 +56,95 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '2',
-    title: { ru: 'Индустриальная эссенция', en: 'Industrial Essence' },
-    residentialComplex: { ru: 'ЖК «Символ»', en: 'RC Symbol' },
-    address: { ru: 'ул. Золоторожский Вал, Москва', en: 'Zolotorozhsky Val, Moscow' },
-    sqm: 110,
+    title: { ru: 'ЖК Аквилон Beside', en: 'Aquilon Beside' },
+    residentialComplex: { ru: 'ЖК Аквилон Beside', en: 'Aquilon Beside' },
+    address: { ru: 'Рязанский проспект д 2/2, Москва', en: 'Ryazanskoye pr., 2/2, Moscow' },
+    sqm: 41,
     category: 'Residential',
     description: { 
       ru: 'Трансформация лофт-пространства в уютную семейную резиденцию. Бетонные текстуры в сочетании с мягким текстилем создают атмосферу защищенности.', 
       en: 'Transformation of a loft space into a cozy family residence. Concrete textures combined with soft textiles create an atmosphere of security.' 
     },
-    mainImage: '/projects/project2/render1.jpg',
+    mainImage: '/projects/project2/19.jpg',
     gallery: [
-      '/projects/project2/render1.jpg'
+      '/projects/project2/1.jpg',
+      '/projects/project2/2.jpg',
+      '/projects/project2/3.jpg',
+      '/projects/project2/4.jpg',
+      '/projects/project2/5.jpg',
+      '/projects/project2/6.jpg',
+      '/projects/project2/7.jpg',
+      '/projects/project2/8.jpg',
+      '/projects/project2/9.jpg',
+      '/projects/project2/10.jpg',
+      '/projects/project2/11.jpg',
+      '/projects/project2/12.jpg',
+      '/projects/project2/13.jpg',
+      '/projects/project2/14.jpg',
+      '/projects/project2/15.jpg',
+      '/projects/project2/16.jpg',
+      '/projects/project2/17.jpg',
+      '/projects/project2/18.jpg',
+      '/projects/project2/19.jpg',
+      '/projects/project2/20.jpg',
+      '/projects/project2/21.jpg'
     ],
     pdfFiles: [
       {
-        name: { ru: 'Технические чертежи', en: 'Technical Drawings' },
-        url: '/projects/project2/technical-drawings.pdf'
+        name: { ru: 'Техническая документация', en: 'Technical documentation' },
+        url: '/projects/project2/Аквилон Бисайд.pdf'
       }
     ],
-    year: '2023'
+    year: '2025'
   },
   {
     id: '3',
-    title: { ru: 'Технический регламент', en: 'Technical Standards' },
-    residentialComplex: { ru: 'Проектная документация', en: 'Technical Documentation' },
-    address: { ru: 'Различные объекты', en: 'Various Locations' },
-    sqm: 0,
+    title: { ru: 'ЖК Кинетик', en: 'Kinetic' },
+    residentialComplex: { ru: 'ЖК Кинетик', en: 'Kinetic' },
+    address: { ru: 'Дмитровское шоссе Д. 75/7, Москва', en: 'Dmitrovskoye shosse D. 75/7, Moscow' },
+    sqm: 66,
     category: 'Technical',
     description: { 
       ru: 'Пример полного пакета рабочих чертежей. Гарантированная точность для строительных бригад и детальная проработка узлов.', 
       en: 'An example of a full set of working drawings. Guaranteed precision for construction crews and detailed joint development.' 
     },
-    mainImage: '/images/technical-main.jpg',
+    mainImage: '/projects/project3/8.jpg',
     gallery: [
-      '/images/drawing-sample-1.jpg',
-      '/images/drawing-sample-2.jpg'
+      '/projects/project3/1.jpg',
+      '/projects/project3/2.jpg',
+      '/projects/project3/3.jpg',
+      '/projects/project3/4.jpg',
+      '/projects/project3/5.jpg',
+      '/projects/project3/6.jpg',
+      '/projects/project3/7.jpg',
+      '/projects/project3/8.jpg',
+      '/projects/project3/9.jpg',
+      '/projects/project3/10.jpg',
+      '/projects/project3/11.jpg',
+      '/projects/project3/12.jpg',
+      '/projects/project3/13.jpg',
+      '/projects/project3/14.jpg',
+      '/projects/project3/15.jpg',
+      '/projects/project3/16.jpg',
+      '/projects/project3/17.jpg',
+      '/projects/project3/18.jpg',
+      '/projects/project3/19.jpg',
+      '/projects/project3/20.jpg',
+      '/projects/project3/21.jpg',
+      '/projects/project3/22.jpg',
+      '/projects/project3/23.jpg',
+      '/projects/project3/24.jpg',
+      '/projects/project3/25.jpg',
+      '/projects/project3/26.jpg',
+      '/projects/project3/27.jpg',
+      '/projects/project3/28.jpg'
     ],
     pdfFiles: [
       {
         name: { ru: 'Полный альбом PDF', en: 'Full PDF Album' },
-        url: '/projects/technical/full-set.pdf'
+        url: '/projects/project3/Кинетик.pdf'
       }
     ],
-    year: '2022-2024'
+    year: '2025'
   }
 ];
