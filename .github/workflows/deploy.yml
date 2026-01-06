@@ -1,0 +1,42 @@
+name: Build and Deploy Portfolio
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # Папка, куда GitHub Actions зальёт собранный сайт на хостинге.
+          # Часто это что-то вроде /www/hum-design.ru/ или /public_html/.
+          # Обновите путь под структуру вашего хостинга.
+          server-dir: ${{ secrets.FTP_REMOTE_DIR }}
+          local-dir: dist/
+          protocol: ftps
+
+
