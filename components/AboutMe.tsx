@@ -32,11 +32,11 @@ const AboutMe: React.FC = () => {
 
             <div className="grid grid-cols-2 gap-8 py-8 border-y border-[var(--border)]">
               <div>
-                <div className="text-3xl font-serif text-[var(--accent)] mb-1">3+</div>
+                <div className="text-3xl font-serif text-[var(--accent)] mb-1">2+</div>
                 <div className="text-[10px] uppercase tracking-widest text-[var(--text-secondary)] opacity-50">{t.aboutExp}</div>
               </div>
               <div>
-                <div className="text-3xl font-serif text-[var(--accent)] mb-1">20+</div>
+                <div className="text-3xl font-serif text-[var(--accent)] mb-1">10+</div>
                 <div className="text-[10px] uppercase tracking-widest text-[var(--text-secondary)] opacity-50">{t.aboutCompleted}</div>
               </div>
             </div>
@@ -49,7 +49,7 @@ const AboutMe: React.FC = () => {
             <div className="pt-4">
                <div className="flex flex-wrap gap-4">
                  <span className="px-4 py-2 bg-[var(--bg-tertiary)] border border-[var(--border)] text-[10px] uppercase tracking-widest">3ds Max + Corona</span>
-                 <span className="px-4 py-2 bg-[var(--bg-tertiary)] border border-[var(--border)] text-[10px] uppercase tracking-widest">AutoCAD / Archicad</span>
+                 <span className="px-4 py-2 bg-[var(--bg-tertiary)] border border-[var(--border)] text-[10px] uppercase tracking-widest">Archicad</span>
                  <span className="px-4 py-2 bg-[var(--bg-tertiary)] border border-[var(--border)] text-[10px] uppercase tracking-widest">Technical Drawings</span>
                </div>
             </div>
