@@ -15,13 +15,41 @@ export const PROJECTS: Project[] = [
     },
     mainImage: 'public/projects/project1/6.webp',
     gallery: [
-      'public/projects/project1/5.webp',
-      'public/projects/project1/6.webp'
+      'public/projects/project1/1.jpg',
+      'public/projects/project1/2.jpg',
+      'public/projects/project1/3.jpg',
+      'public/projects/project1/4.jpg',
+      'public/projects/project1/5.jpg',
+      'public/projects/project1/6.jpg',
+      'public/projects/project1/7.jpg',
+      'public/projects/project1/8.jpg',
+      'public/projects/project1/9.jpg',
+      'public/projects/project1/10.jpg',
+      'public/projects/project1/11.jpg',
+      'public/projects/project1/12.jpg',
+      'public/projects/project1/13.jpg',
+      'public/projects/project1/14.jpg',
+      'public/projects/project1/15.jpg',
+      'public/projects/project1/16.jpg',
+      'public/projects/project1/17.jpg',
+      'public/projects/project1/18.jpg',
+      'public/projects/project1/19.jpg',
+      'public/projects/project1/20.jpg',
+      'public/projects/project1/21.jpg',
+      'public/projects/project1/22.jpg',
+      'public/projects/project1/23.jpg',
+      'public/projects/project1/24.jpg',
+      'public/projects/project1/25.jpg',
+      'public/projects/project1/26.jpg',
+      'public/projects/project1/27.jpg',
+      'public/projects/project1/28.jpg',
+      'public/projects/project1/29.jpg',
+      'public/projects/project1/30.jpg',
     ],
     pdfFiles: [
       {
         name: { ru: 'Техническая документация', en: 'Technical documentation' },
-        url: ''
+        url: 'public/projects/project1/Сифония.pdf'
       }
     ],
     year: '2024'
