@@ -35,7 +35,7 @@ jobs:
           # Папка, куда GitHub Actions зальёт собранный сайт на хостинге.
           # Часто это что-то вроде /www/hum-design.ru/ или /public_html/.
           # Обновите путь под структуру вашего хостинга.
-          server-dir: ${{ secrets.FTP_REMOTE_DIR }}
+          server-dir: ${{ secrets.FTP_REMOTE_DIR }}/
           local-dir: dist/
           protocol: ftps
 
