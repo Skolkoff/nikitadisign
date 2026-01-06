@@ -12,7 +12,7 @@ const AboutMe: React.FC = () => {
           <div className="lg:w-1/2 relative">
             <div className="absolute -inset-4 border border-[var(--accent)]/30 -z-10 translate-x-2 translate-y-2"></div>
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800" 
+              src="/images/portret.jpg" 
               alt="Nikita - Interior Designer" 
               className="w-full grayscale hover:grayscale-0 transition-all duration-700 object-cover aspect-[3/4] shadow-2xl"
             />

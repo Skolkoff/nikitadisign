@@ -8,8 +8,8 @@ const Contact: React.FC = () => {
   const contactLinks = [
     {
       name: 'Telegram',
-      label: '@nikita_design',
-      url: 'https://t.me/yourusername',
+      label: '@skolkoff',
+      url: 'https://t.me/skolkoff',
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-8 h-8 md:w-12 md:h-12">
           <path d="m22 2-7 20-4-9-9-4Z" />
@@ -19,8 +19,8 @@ const Contact: React.FC = () => {
     },
     {
       name: 'WhatsApp',
-      label: '+7 (900) 000-00-00',
-      url: 'https://wa.me/79000000000',
+      label: '+7 (997) 880-77-49',
+      url: 'https://wa.me/79978807749',
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-8 h-8 md:w-12 md:h-12">
           <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-12.7 8.38 8.38 0 0 1 3.8.9L21 3Z" />
@@ -29,8 +29,8 @@ const Contact: React.FC = () => {
     },
     {
       name: 'VKontakte',
-      label: 'vk.com/nikitadesign',
-      url: 'https://vk.com/yourusername',
+      label: 'vk.com/skolkoff12',
+      url: 'https://vk.com/skolkoff12',
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-8 h-8 md:w-12 md:h-12">
           <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 12h-1.5c-1.5 0-2-1-3-1s-1 1-1 1v1h-1.5s0-4 3-4h1.5v1.5c0 .5.5.5.5.5s1 0 1.5-1.5L16.5 10H18l-1.5 4z" />
@@ -39,8 +39,8 @@ const Contact: React.FC = () => {
     },
     {
       name: 'Email',
-      label: 'hello@nikitadesign.com',
-      url: 'mailto:hello@nikitadesign.com',
+      label: 'skolkoff.mart@yandex.ru',
+      url: 'mailto:skolkoff.mart@yandex.ru',
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-8 h-8 md:w-12 md:h-12">
           <rect width="20" height="16" x="2" y="4" rx="2" />
