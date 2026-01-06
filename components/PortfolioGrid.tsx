@@ -39,6 +39,8 @@ const PortfolioGrid: React.FC<PortfolioGridProps> = ({ projects }) => {
               <img 
                 src={project.mainImage} 
                 alt={project.title[lang]}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
               />
               <div className="absolute top-4 right-4 bg-black/50 backdrop-blur px-3 py-1 text-[9px] uppercase tracking-widest text-white border border-white/10">
@@ -93,7 +95,13 @@ const PortfolioGrid: React.FC<PortfolioGridProps> = ({ projects }) => {
                 {hoveredProject === project.id && (
                   <div className="fixed pointer-events-none z-50 w-64 aspect-video overflow-hidden hidden lg:block animate-in fade-in zoom-in duration-300" 
                        style={{ left: '50%', transform: 'translate(-50%, -120%)' }}>
-                    <img src={project.mainImage} alt="Preview" className="w-full h-full object-cover shadow-2xl border border-[var(--border)]" />
+                    <img 
+                      src={project.mainImage} 
+                      alt="Preview"
+                      loading="lazy"
+                      decoding="async"
+                      className="w-full h-full object-cover shadow-2xl border border-[var(--border)]" 
+                    />
                   </div>
                 )}
               </div>
@@ -123,10 +131,23 @@ const PortfolioGrid: React.FC<PortfolioGridProps> = ({ projects }) => {
 
           <div className="container mx-auto px-6 py-12 flex flex-col lg:flex-row gap-16" onClick={e => e.stopPropagation()}>
             <div className="lg:w-2/3 space-y-8">
-              <img src={selectedProject.mainImage} alt="Main" className="w-full aspect-video object-cover shadow-2xl" />
+              <img 
+                src={selectedProject.mainImage} 
+                alt="Main" 
+                loading="lazy"
+                decoding="async"
+                className="w-full aspect-video object-cover shadow-2xl" 
+              />
               <div className="grid grid-cols-2 gap-4">
                 {selectedProject.gallery.map((img, i) => (
-                  <img key={i} src={img} alt={`Gallery ${i}`} className="w-full aspect-video object-cover hover:opacity-80 transition-opacity cursor-pointer shadow-lg" />
+                  <img 
+                    key={i} 
+                    src={img} 
+                    alt={`Gallery ${i}`} 
+                    loading="lazy"
+                    decoding="async"
+                    className="w-full aspect-video object-cover hover:opacity-80 transition-opacity cursor-pointer shadow-lg" 
+                  />
                 ))}
               </div>
             </div>
