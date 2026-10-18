@@ -1,11 +1,30 @@
-<div align="center">
+# Nikita Design
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Моё портфолио — дизайнера интерьеров. Проект показывает избранные работы, галерею проектов, информацию о дизайнере и контактные данные. Интерфейс поддерживает переключение темы и локализацию.
 
-  <h1>Built with AI Studio</h2>
+## Запуск локально
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Требования: Node.js 18+ и npm.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+```bash
+git clone <URL-репозитория>
+cd nikitadisign
+npm ci
+npm run dev
+```
 
-</div>
+После запуска откройте [http://localhost:3000](http://localhost:3000).
+
+## Команды
+
+```bash
+npm run dev       # запуск dev-сервера
+npm run build     # production-сборка в dist/
+npm run preview   # локальный просмотр production-сборки
+```
+
+## Стек
+
+- React 19
+- TypeScript
+- Vite
